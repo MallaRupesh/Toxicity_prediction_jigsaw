@@ -199,7 +199,7 @@ if(st.button('Submit')):
 	# st.success(f"The output score is : {output}")
 	# print(float(output))
 	st.text("The level of toxicity :")
-	my_bar = st.progress(float(output))
+	my_bar = st.progress(abs(float(output)))
 	st.success(f"The output score is : {output}")
 	# for percent_complete in range(0,1):
 	#      # time.sleep(0.1)
