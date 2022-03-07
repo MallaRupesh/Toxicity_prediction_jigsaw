@@ -1,30 +1,9 @@
 
-import pandas as pd
+i
 import numpy as np
-import pickle
+import pandas as pd
+
 import streamlit as st
-import numpy as np
-import pandas as pd
-import numpy as np
-from sklearn import linear_model
-import joblib
-from bs4 import BeautifulSoup
-# from werkzeug import filename
-import re
-import numpy as np
-import pandas as pd
-import xgboost as xgb
-from tensorflow.keras.models import load_model
-from sklearn.metrics import mean_absolute_error
-from scipy.stats import skew, boxcox
-from joblib import dump, load
-import time
-import itertools
-import warnings
-warnings.filterwarnings("ignore")
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import Ridge
-import streamlit as stl
 
 
 def final_func_1(x):
