@@ -189,7 +189,7 @@ st.header('This app is created to predict how toxic a comment is')
 text1 = st.text_area('Enter text')
 
 text1=pd.Series(text1)
-if(stl.button('Submit')):
+if(st.button('Submit')):
 	output =final_func_1(text1)
 
 	# output = predict(text_news)
