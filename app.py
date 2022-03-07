@@ -196,7 +196,7 @@ if(stl.button('Submit')):
 	# output = str(output)
 	# st.success(f"The output score is : {output}")
 	# print(float(output))
-	stl.text("The level of toxicity :")
+	st.text("The level of toxicity :")
 	my_bar = st.progress(float(output))
 	st.success(f"The output score is : {output}")
 	# for percent_complete in range(0,1):
